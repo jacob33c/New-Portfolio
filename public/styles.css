@@ -1,0 +1,114 @@
+/* get rid of stop margin */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.title{
+  margin-top:0;
+  background-color: #D7F1FE;
+  padding-bottom: 5%;
+}
+/* //navbar stuff */
+.logo-nav{
+  width:75px;
+  margin-top: 30px;
+  margin-right: 50%;
+  margin-left: 6%;
+}
+
+.nav-link{
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+/* IDEA: box on the top */
+.title-box{
+  width: 65%;
+  height: 80%;
+  padding: 0 5%;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  stroke-linecap: round;
+  margin-bottom: 50px;
+  box-shadow: 6px 7px 6px #D9C4F2;
+  position:relative;
+}
+.title-box:hover{
+  box-shadow: 6px 7px 15px #D9C4F2;
+}
+
+
+.title-words{
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+.jacob{
+  font-family: 'Lilita One', cursive;
+  font-size: 3.4rem;
+}
+.title-logo{
+  width: 130px;
+  margin: 50px auto;
+}
+.btn-title{
+  margin: 30px auto 60px;
+  background-color: #557BFF;
+  padding: 5px  60px;
+}
+.btn{
+  border-radius: 20px;
+
+}
+/* IDEA: colors for  title page*/
+.jac{
+  color:#7325CD;
+}
+.ob{
+  color:  #AE2574;
+}
+.ai{
+  color: #B3256D;
+}
+.zer{
+  color:#D92534;
+}
+/* IDEA: end of title section */
+/* IDEA: start of projects section */
+#projects{
+  text-align: center;
+  margin: 0 15%;
+}
+.project-title{
+  margin: 40px auto;
+  font-family: 'Lilita One', cursive;
+  font-size: 3.4rem;
+}
+.card-title{
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-family: 'Lilita One', cursive;
+}
+.card{
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 6px 7px 6px #D7F1FE;
+}
+.card:hover{
+  box-shadow: 6px 7px 15px #D9C4F2;
+
+}
+.card-img-top{
+  padding: 15px;
+  border-radius: 20px;
+  height:225px;
+}
+.btn-carousel{
+  margin: 0 3%;
+}
