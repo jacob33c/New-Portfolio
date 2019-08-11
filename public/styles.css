@@ -103,7 +103,7 @@ a:hover{
   box-shadow: 6px 7px 6px #D7F1FE;
 }
 .card:hover{
-  box-shadow: 6px 7px 15px #D9C4F2;
+  box-shadow: 6px 7px 15px #D7F1FE;
 }
 .card-img-top{
   padding: 15px;
@@ -123,5 +123,56 @@ a:hover{
   display: none;
 }
 .blurry{
-  opacity: .6;
+  opacity: .3;
+}
+/* IDEA: end projects section */
+
+
+/* IDEA: start of about section */
+.about-box{
+  background-color: white;
+  margin: 5% auto;
+  border-radius: 15px;
+  color: #515151;
+}
+.big-about-box{
+  border: solid;
+  border-width: 1px;
+  border-color: #707070;
+  box-shadow: 6px 7px 6px #C8D5FF;
+}
+.skill-list{
+  line-height: 1;
+}
+.list-header{
+  margin-bottom: 25px;
+}
+.box-header{
+  margin: 3% auto;
+  font-size: 3rem;
+  font-family: 'Lilita One', cursive;
+
+}
+.left-list{
+  margin-top:25px;
+}
+.edu-list {
+  position: relative;
+  left: 10px;
+}
+
+@media (max-width: 992px) {
+  .big-about-box{
+    margin: 2% 10%;
+  }
+  .skill-list{
+    text-align: left;
+    margin: 0 30%;
+  }
+}
+
+#about{
+  text-align: center;
+  background-color: #C6F5F7;
+  padding: 3% 2% 10%;
 }
