@@ -170,9 +170,46 @@ a:hover{
     margin: 0 30%;
   }
 }
-
 #about{
   text-align: center;
   background-color: #C6F5F7;
   padding: 3% 2% 10%;
+}
+/* IDEA: end skills */
+
+/* IDEA: start contact */
+.contact-form{
+  margin-top: 80px;
+  text-align: left;
+}
+
+.form-input{
+  margin: 1% 0;
+  font-family: 'Lilita One', cursive;
+  padding: 2% 0;
+  border-radius: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+.form-msg{
+  padding-right: 40%;
+  padding-bottom: 45%;
+}
+.contact-btn{
+  margin: 3% 1%;
+  padding: 1% 25%;
+}
+/* IDEA: end contact and skills section */
+/* IDEA: start footer */
+#footer{
+  margin-left: 3.5%;
+}
+.footer-logo{
+  position: inline;
+  width: 3%;
+  margin: 3% 1%;
+}
+.footer-text{
+  margin-left: 27%;
 }
