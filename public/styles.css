@@ -125,6 +125,14 @@ a:hover{
 .blurry{
   opacity: .3;
 }
+@media (max-width: 1192px) {
+    #projects{
+      margin: auto 28%;
+    }
+}
+
+
+
 /* IDEA: end projects section */
 
 
